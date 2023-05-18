@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+  color: black;
+  margin: 0;
+  padding-bottom: 50px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: repeat-x;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  width: 90px;
+  height: auto;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-size: 15px;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.navbar-nav .nav-link:hover {
+  color: yellow !important;
+  background-color: #04AA6D;
+  border-radius: 5px;
+  text-shadow: none;
+}
+
+.navbar {
+  background-color: #04AA6D !important;
+  opacity: 0.8;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  width: 100%;
+}
+
+.image-section {
+  position: relative;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.image-section img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.image-text {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.image-text h1 {
+  font-family: Arial, sans-serif;
+  margin-top: -60px;
+  color: black;
+  font-size: 28px;
+  text-align: center !important;
+}
+
+.image-text p {
+  color: black;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent !important;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+.footer-text {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 12px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-top {
+  display: inline-block;
+  color: #04AA6D;
+  border: 2px solid #04AA6D;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 13px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.scroll-top-container {
+  margin-bottom: -60px;
+}
+
+.scroll-top:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.scroll-top:focus,
+.scroll-top:active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.bg-lightblue {
+  background-color: #04AA6D !important;
+}
+
