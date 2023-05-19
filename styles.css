@@ -16,15 +16,24 @@ body {
 /* Media Queries */
 @media (max-width: 767px) {
   .navbar-nav {
-    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   .navbar-nav .nav-item {
-    margin: 10px 0;
+    margin: 10px 15px;
   }
   
-  .navbar-collapse {
-    text-align: center;
+  .logo {
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+    margin: 0 auto;
   }
 }
 
@@ -153,4 +162,3 @@ footer {
 .bg-lightblue {
   background-color: #04AA6D !important;
 }
-
