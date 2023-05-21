@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
   color: black;
@@ -5,7 +9,7 @@ body {
   padding-bottom: 50px;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("valid-image-url.jpg");
+  background-image: url("https://github.com/Arc-SouthAfrica/Arc-SouthAfrica.github.io/blob/main/docs/462749.jpg?raw=true");
   background-size: cover;
   background-repeat: repeat-x;
   display: flex;
@@ -45,8 +49,8 @@ body {
 }
 
 .logo img {
-  width: 90px;
   height: auto;
+  width: min(50vw, 200px);
 }
 
 .navbar-nav {
@@ -58,6 +62,7 @@ body {
 
 .navbar-nav .nav-item {
   margin-left: 15px;
+
 }
 
 .navbar-nav .nav-link {
@@ -66,19 +71,21 @@ body {
   text-decoration: none;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
+
 .navbar-nav .nav-link:hover {
   color: yellow !important;
-  background-color: #04AA6D;
+  background-color: #2e278a;
   border-radius: 5px;
-  text-shadow: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .navbar {
-  background-color: #04AA6D !important;
+  background-color: #5d7f9e !important;
   opacity: 0.8;
   font-family: Arial, sans-serif;
   color: #fff;
   width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 .image-section {
@@ -88,36 +95,89 @@ body {
 }
 
 .image-section img {
-  width: 100%;
+  width: 80%;
   height: auto;
-  opacity: 0.8;
+  margin-top: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 }
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.contact-photo {
+  margin-top: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.contact-list li {
+  margin-bottom: 10px;
+}
+
+
 
 .image-text {
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
+  margin-top: -40px;
+  
 }
 
-.image-text h1 {
-  font-family: Arial, sans-serif;
-  margin-top: -60px;
-  color: black;
-  font-size: 28px;
-  text-align: center !important;
+.image-text h1,
+.image-text h2,
+.image-text h3,
+.image-text h4,
+.image-text h5 {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.image-text h3,
+.image-text h4,
+.image-text h5 {
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+
+
+.image-text li {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  
 }
 
 .image-text p {
   color: black;
   font-size: 16px;
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px;
+  
 }
 
 footer {
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-top: 10px;
   background-color: transparent !important;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
@@ -129,6 +189,11 @@ footer {
   font-size: 12px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+.footer-text a {
+  color: yellow;
+}
+
 
 .scroll-top {
   display: inline-block;
@@ -160,5 +225,5 @@ footer {
 }
 
 .bg-lightblue {
-  background-color: #04AA6D !important;
+  background-color: #5d7f9e !important;
 }
