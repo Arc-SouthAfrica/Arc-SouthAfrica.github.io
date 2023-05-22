@@ -107,7 +107,7 @@ body {
   align-items: center;
   text-align: center;
   font-weight: bold;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .contact-photo {
@@ -226,4 +226,18 @@ footer {
 
 .bg-lightblue {
   background-color: #5d7f9e !important;
+  padding-bottom: 25px;
 }
+
+#scroll-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+#scroll-top-button img {
+  width: 40px;
+  height: 40px;
+}
+
