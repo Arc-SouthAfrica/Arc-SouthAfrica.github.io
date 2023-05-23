@@ -25,11 +25,11 @@ body {
     justify-content: center;
     align-items: center;
   }
-  
+
   .navbar-nav .nav-item {
     margin: 10px 15px;
   }
-  
+
   .logo {
     margin: 0 auto;
   }
@@ -62,7 +62,6 @@ body {
 
 .navbar-nav .nav-item {
   margin-left: 15px;
-
 }
 
 .navbar-nav .nav-link {
@@ -124,15 +123,12 @@ body {
   margin-bottom: 10px;
 }
 
-
-
 .image-text {
   bottom: 0;
   left: 0;
   width: 100%;
   text-align: center;
   margin-top: -40px;
-  
 }
 
 .image-text h1,
@@ -140,8 +136,8 @@ body {
 .image-text h3,
 .image-text h4,
 .image-text h5 {
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding: 5px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
@@ -153,25 +149,21 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
-
-
 .image-text li {
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   text-align: center;
   padding: 5px;
   font-size: 16px;
-  
 }
 
 .image-text p {
   color: black;
   font-size: 16px;
   text-align: center;
-  width: 70%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   padding: 5px;
-  
 }
 
 footer {
@@ -193,7 +185,6 @@ footer {
 .footer-text a {
   color: yellow;
 }
-
 
 .scroll-top {
   display: inline-block;
@@ -241,4 +232,76 @@ footer {
   height: 40px;
 }
 
+/* Hamburger Menu */
+.hamburger-menu {
+  display: none;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.hamburger-menu .line {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  color: white;
+  margin: 5px 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.hamburger-menu .line {
+  border-color: white;
+}
+
+.hamburger-menu span {
+  background-color: white !important;
+}
+
+/* Changes for Hamburger Menu */
+.hamburger-menu .line,
+.hamburger-menu .line:before,
+.hamburger-menu .line:after {
+  background-color: white;
+}
+
+.hamburger-menu:hover .line,
+.hamburger-menu:hover .line:before,
+.hamburger-menu:hover .line:after {
+  background-color: white;
+}
+
+.hamburger-menu.active .line {
+  transform: rotate(45deg);
+}
+
+.hamburger-menu.active .line:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+.hamburger-menu.active .line:after {
+  transform: rotate(90deg);
+  bottom: 0;
+}
+
+.hamburger-menu.active span {
+  background-color: transparent !important;
+}
+
+.hamburger-menu.active span:before,
+.hamburger-menu.active span:after {
+  background-color: white;
+}
+
+.hamburger-menu.active span:before {
+  top: 0;
+  transform: translateY(-5px) rotate(45deg);
+}
+
+.hamburger-menu.active span:after {
+  bottom: 0;
+  transform: translateY(5px) rotate(-45deg);
+}
 
