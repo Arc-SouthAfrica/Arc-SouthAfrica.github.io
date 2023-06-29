@@ -529,8 +529,10 @@ div.social {
     grid-template-columns: 1fr;
   }
   .copyright p {
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 10px;
+    
    
   }
 
