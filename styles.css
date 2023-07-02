@@ -19,7 +19,8 @@ body {
   min-height: 100vh;
   background-image: url("https://github.com/Arc-SouthAfrica/Arc-SouthAfrica.github.io/blob/main/docs/462749.jpg?raw=true");
   background-size: cover;
-  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .header {
@@ -42,7 +43,7 @@ body {
 .navbar ul li a {
   color: #fff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   
 }
 .navbar ul {
@@ -61,7 +62,7 @@ body {
   padding-top: 18px;
   padding-bottom: 18px;
   height: auto;
-  width: 190px;
+  width: 40%;
 }
 
 /* Hamburger Menu*/
@@ -265,7 +266,7 @@ body {
 }
 
 .welcome-message h2 {
-  font-size: 30px;
+  font-size: 25px;
   padding: 5px;
   
 }
@@ -279,7 +280,7 @@ body {
 .welcome-message p,
 .welcome-message ul,
 .welcome-message li {
-  font-size: 15px;
+  font-size: 14px;
   padding: 5px;
 }
 
@@ -315,7 +316,7 @@ hr {
 footer {
   background-image: linear-gradient(to right, #5d7f9e, #3d80bb);
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: 50px;
   
 }
@@ -349,7 +350,7 @@ footer * {
   width: 100%;
   text-align: left;
   color: white;
-  font-size: 1.4em;
+  font-size: 14px;
   white-space: nowrap;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -387,7 +388,7 @@ footer * {
 }
 
 button {
-  font-size: 15px;
+  font-size: 14px;
   padding: 15px;
   width: 200px;
   border-radius: 5px;
@@ -465,7 +466,7 @@ div.social {
   color: orange;
 }
 .copyright p {
-  font-size: 0.9em;
+  font-size: 14px;
   text-align: right;
   margin-bottom: -15px;
   color: orange;
@@ -545,10 +546,24 @@ div.social {
     font-size: 25px;
   }
 
+  .welcome-section {
+    max-width: 100%;
+
+  }
+
 }
 
 .footer-logo {
   width: 50%;
   height: auto;
   padding-bottom: 10px;
+}
+
+hr {
+  color: #263849 ; /* Change the color */
+  height: 2px; /* Change the height */
+  background-color: #263849; /* Change the background color */
+  border: none; /* Remove the border */
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
