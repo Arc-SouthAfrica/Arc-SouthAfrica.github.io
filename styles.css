@@ -342,15 +342,18 @@ nav .navbar .links li:hover .js-sub-menu {
   left: -600px;
   width: 600px;
   opacity: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(253, 253, 251, 0.8);
   color: #333;
   padding: 35px;
   overflow: hidden;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  font-size: small;
+  border-radius: 10px;
 }
 
 .slide .content h1 {
   margin-bottom: 10px;
+  font-size: large;
 }
 
 .slide.current .content {
@@ -362,13 +365,13 @@ nav .navbar .links li:hover .js-sub-menu {
 button#next {
   position: absolute;
   top: 50%;
-  right: 15px;
+  right: 10px;
 }
 
 .buttons button#prev {
   position: absolute;
   top: 50%;
-  left: 15px;
+  left: 10px;
 }
 
 .buttons button {
@@ -377,12 +380,12 @@ button#next {
   color: #fff;
   cursor: pointer;
   padding: 13px 15px;
-  border-radius: 50%;
+  border-radius: 20%;
 }
 
 .buttons button:hover {
   background-color: #fff;
-  color: #333;
+  color: yellowgreen;
 }
 
 @media(max-width: 500px) {
@@ -431,9 +434,10 @@ button#next {
   margin-top: 20px !important;
   font-size: small;
   text-align: center;
-  width: 95%; /* Adjust width as needed */
+  width: 90%; /* Adjust width as needed */
   margin: 0 auto; /* Center the box horizontally */
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 .center-box h2 {
@@ -475,12 +479,12 @@ button#next {
   padding: 0px;
 }
 .footer-section {
-background-image: url("BG/lightblue.png");
+background: linear-gradient(rgba(232, 248, 232, 0.8), rgba(158, 248, 158, 0.8));
 background-size: cover;
 position: relative;
 }
 .footer-cta {
-border-bottom: 1px solid #fff;
+border-bottom: 2px solid#4bcf4b ;
 }
 
 .single-cta {
@@ -515,13 +519,13 @@ padding: 5px;
 }
 
 .cta-text h4 {
-color: #fff;
+color: rgba(12, 50, 107, 0.8);
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 2px;
 }
 .cta-text span {
-color: #fff;
+color: rgba(12, 50, 107, 0.8);
 font-size: 15px;
 }
 .footer-content {
@@ -545,11 +549,11 @@ margin-bottom: 30px;
 .footer-text p {
 margin-bottom: 14px;
 font-size: 14px;
-    color: #fff;
+color:rgba(12, 50, 107, 0.8) ;
 line-height: 28px;
 }
 .footer-social-icon span {
-color: #fff;
+color: rgba(12, 50, 107, 0.8);
 display: block;
 font-size: 20px;
 font-weight: 700;
@@ -569,16 +573,16 @@ line-height: 38px;
 border-radius: 50%;
 }
 .facebook-bg{
-background: #3B5998;
+background: rgba(12, 50, 107, 0.8);
 }
 .twitter-bg{
-background: #55ACEE;
+background: rgba(12, 50, 107, 0.8);
 }
 .google-bg{
-background: #DD4B39;
+background: rgba(12, 50, 107, 0.8);
 }
 .footer-widget-heading h3 {
-color: #fff;
+color: rgba(12, 50, 107, 0.8);
 font-size: 20px;
 font-weight: 600;
 margin-bottom: 40px;
@@ -604,7 +608,7 @@ margin-bottom: 12px;
   text-decoration: none;
 }
 .footer-widget ul li a {
-color: #fff;
+color: rgba(12, 50, 107, 0.8);
 text-transform: capitalize;
 }
 
