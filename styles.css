@@ -338,17 +338,18 @@ nav .navbar .links li:hover .js-sub-menu {
 
 .slide .content {
   position: absolute;
-  bottom: 70px;
-  left: -600px;
+  bottom: 80px;
+  left: -500px;
   width: 600px;
   opacity: 0;
-  background-color: rgba(253, 253, 251, 0.8);
-  color: #333;
+  background-color: rgba(153, 205, 50, 0.473);
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding: 35px;
   overflow: hidden;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   font-size: small;
-  border-radius: 10px;
+  
 }
 
 .slide .content h1 {
@@ -377,7 +378,7 @@ button#next {
 .buttons button {
   border: 0px solid white;
   background: transparent;
-  color: #0c0c0c;
+  color: white;
   cursor: pointer;
   padding: 11px 13px;
   border-radius: 20%;
