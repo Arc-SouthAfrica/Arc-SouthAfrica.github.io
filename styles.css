@@ -375,12 +375,13 @@ button#next {
 }
 
 .buttons button {
-  border: 2px solid white;
+  border: 0px solid white;
   background: transparent;
-  color: #fff;
+  color: #0c0c0c;
   cursor: pointer;
-  padding: 13px 15px;
+  padding: 11px 13px;
   border-radius: 20%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .buttons button:hover {
