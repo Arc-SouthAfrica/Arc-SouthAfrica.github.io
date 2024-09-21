@@ -41,3 +41,41 @@ const prevSlide = () => {
 slideInterval = setInterval(nextSlide, intervalTime);
 
 // contact us map
+// Scroll reveal button
+function scrollReveal() {
+  const revealElements = document.querySelectorAll('.scroll-reveal');
+
+  for (let element of revealElements) {
+      const elementTop = element.getBoundingClientRect().top;
+      const windowHeight = window.innerHeight;
+
+      if (elementTop < windowHeight) {
+          element.classList.add('revealed');
+      }
+  }
+}
+
+window.addEventListener('scroll', scrollReveal);
+
+
+var scrollTopButton = document.getElementById('scroll-top-button');
+var scrollTimeout;
+
+window.addEventListener('scroll', function() {
+clearTimeout(scrollTimeout);
+scrollTimeout = setTimeout(function() {
+  scrollTopButton.style.opacity = '0'; 
+}, 2000);
+
+if (window.pageYOffset > 0) {
+  scrollTopButton.style.opacity = '1'; 
+} else {
+  scrollTopButton.style.opacity = '0'; 
+}
+});
+
+scrollTopButton.addEventListener('click', function(e) {
+e.preventDefault();
+window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+

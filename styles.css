@@ -871,4 +871,35 @@ input[type="submit"]:hover {
   /* Adjust other styles as needed */
 }
 
+.scroll-top-container {
+  
+  width: 20%;
+  justify-content: center;
+  margin-left: 40%;
+}
+
+.scroll-top:hover {
+  background-color: #04a5aa;
+  color: white;
+}
+
+.scroll-top:focus,
+.scroll-top:active {
+  background-color: #04a5aa;
+  color: white;
+}
+
+#scroll-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  
+}
+
+#scroll-top-button img {
+  width: 40px;
+  height: 40px;
+}
+
 
