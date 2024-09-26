@@ -13,7 +13,7 @@ nav {
   width: 100%;
   height: 100%;
   height: 100px;
-  background: white;
+  background: rgb(255, 255, 255);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   
@@ -877,6 +877,12 @@ input[type="submit"]:hover {
   justify-content: center;
   margin-left: 40%;
 }
+.scroll-top-container i{
+  color: yellowgreen !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
 
 .scroll-top:hover {
   background-color: #04a5aa;
